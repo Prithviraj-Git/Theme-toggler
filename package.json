@@ -1,0 +1,25 @@
+{
+  "name": "Theme Toggler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html", 
+  "scripts": {
+    "scss": "node-sass scss/styles.scss css/styles.css",
+    "watch:css": "onchange \"scss/*.scss\" -- npm run scss"
+  },
+  "author": "Prithviraj",
+  "license": "ISC",
+  "devDependencies": {
+    "onchange": "^7.1.0",
+    "postcss": "^8.1.7",
+    "postcss-cli": "^8.2.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.2"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 11"
+  ]
+}
